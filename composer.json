@@ -1,0 +1,27 @@
+{
+  "name": "maxdenq/language-fr_FR",
+  "description": "Traduction en français de Magento 2.4",
+    "keywords": [
+    "magento2",
+    "translation"
+  ],
+  "type": "magento2-language",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "MaxDenq",
+      "email": "maxdenquin@hotmail.com",
+    }
+  ],
+  "require": {
+    "magento/framework": "~100.0.0||~101.0.0||~102.0.0||~103.0.0"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ]
+  }
+}
